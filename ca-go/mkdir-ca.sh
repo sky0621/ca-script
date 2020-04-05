@@ -18,7 +18,7 @@ mkdir cmd usecase domain adapter driver
 
 (
   cd adapter
-  mkdir -p controller/dto gateway/dto
+  mkdir -p controller/model gateway/model
   cp ${SCRIPTDIR}/controller/MEMO.md controller/
   cp ${SCRIPTDIR}/gateway/MEMO.md gateway/
 )
